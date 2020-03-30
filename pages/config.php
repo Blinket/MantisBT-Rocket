@@ -42,8 +42,7 @@ if (gpc_get_string( 'url_webhook_test', false )) {
 
   plugin_get()->notify(
     plugin_lang_get('url_webhook_test_text'),
-    gpc_get_string( 'url_webhook' ),
-    gpc_get_string( 'default_channel' )
+    gpc_get_string( 'url_webhook' )
   );
 
 }
