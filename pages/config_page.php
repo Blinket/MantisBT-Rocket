@@ -64,7 +64,8 @@ print_manage_menu( 'manage_plugin_page.php' );
       </td>
       <td colspan="2">
         <p>
-            Указывает сопоставление между проектами Mantis и RocketChat webhooks.
+            Indicates a comparison between Mantis and RocketChat webhooks projects.
+            <!-- Указывает сопоставление между проектами Mantis и RocketChat webhooks. -->
         </p>
         <p>
           Option name is <strong>plugin_Rocket_url_webhooks</strong> and is an array of 'Mantis project name' => 'RocketChat webhook'.
@@ -126,7 +127,8 @@ print_manage_menu( 'manage_plugin_page.php' );
       </td>
       <td colspan="2">
         <p>
-            Указывает сопоставление между пользователями Mantis и RocketChat.
+            Indicates a match between users of Mantis and RocketChat
+            <!-- Указывает сопоставление между пользователями Mantis и RocketChat. -->
         </p>
         <p>
           Option name is <strong>plugin_Rocket_usernames</strong> and is an array of 'Mantis user name' => 'RocketChat user name'.
