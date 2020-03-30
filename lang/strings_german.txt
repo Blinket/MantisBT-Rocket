@@ -1,0 +1,59 @@
+<?php
+/**
+ * RocketChat Integration
+ * Copyright (C) 2019 Dmitry Litus (ratzxx@gmail.com)
+ *
+ * RocketChat Integration is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License 2
+ * as published by the Free Software Foundation.
+ *
+ * RocketChat Integration is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with RocketChat Integration; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
+ * or see http://www.gnu.org/licenses/.
+ *
+ */
+
+$s_plugin_Rocket_ = '';
+$s_plugin_Rocket_title = 'RocketChat Integratiom';
+$s_plugin_Rocket_description = 'Adds RocketChat integration to Mantis.';
+$s_plugin_Rocket_config = 'Konfiguration';
+$s_plugin_Rocket_url_webhook = 'Standard RocketChat Webhook URL';
+$s_plugin_Rocket_url_webhook_test = 'Test Webhook';
+$s_plugin_Rocket_url_webhook_test_text = 'Hallo, dies ist ein Test für das MantisBT-Rocket-Plugin :wave:';
+$s_plugin_Rocket_url_webhooks = 'Zusätzliche RocketChat Webhook-URLs';
+$s_plugin_Rocket_notifications = 'Benachrichtigungs-Einstellungen';
+$s_plugin_Rocket_notification_bug_report = 'Benachrichtigung zum Thema hinzugefügt';
+$s_plugin_Rocket_notification_bug_update = 'Benachrichtigung zum Thema bearbeitet';
+$s_plugin_Rocket_notification_bug_deleted = 'Benachrichtigung bei Ausgabe gelöscht';
+$s_plugin_Rocket_notification_bugnote_add = 'Benachrichtigung auf Notiz hinzugefügt';
+$s_plugin_Rocket_notification_bugnote_edit = 'Benachrichtigung bei Notiz bearbeitet';
+$s_plugin_Rocket_notification_bugnote_deleted = 'Benachrichtigung bei Notiz gelöscht';
+$s_plugin_Rocket_skip_private = 'Überspringen der Benachrichtigung über private Themen und Notizen';
+$s_plugin_Rocket_skip_bulk = 'Überspringen der Benachrichtigung bei Massenaktionen';
+$s_plugin_Rocket_link_names = 'Verwandeln Sie Benutzernamen in RocketChat-Links (kann zu übermäßigen RocketChat-Benachrichtigungen führen)';
+$s_plugin_Rocket_columns = 'RocketChat-Spalten';
+$s_plugin_Rocket_bug_created = '[%s] %s erstellt <%s|%s>.';
+$s_plugin_Rocket_bug_updated = '[%s] %s aktualisiert <%s|%s>.';
+$s_plugin_Rocket_bug_deleted = '[%s] %s gelöscht %s.';
+$s_plugin_Rocket_bugnote_created = "[%s] %s kommentierte: <%s|%s>";
+$s_plugin_Rocket_bugnote_updated = "[%s] %s bearbeitete einen Kommentar: <%s|%s>";
+$s_plugin_Rocket_bugnote_deleted = "[%s] %s löschte einen Kommentar: <%s|%s>.";
+$s_plugin_Rocket_no_user = '(Niemand)';
+$s_plugin_Rocket_unknown_field = '(weiß nicht, wie man dieses Feld rendert: "%s")';
+$s_plugin_Rocket_skip = 'RocketChat-Benachrichtigung überspringen';
+$s_plugin_Rocket_action_update = 'Update';
+
+$MANTIS_ERROR['plugin_Rocket_ERROR_NO_CURL'] = 'The RocketChat plugin requires the cURL PHP extension (http://php.net/curl)';
+$MANTIS_ERROR['plugin_Rocket_ERROR_PHP_VERSION'] = 'The RocketChat plugin requires PHP 5.3.0 or higher';
+$MANTIS_ERROR['plugin_Rocket_ERROR_CURL'] = 'The request to RocketChat didn\'t go through.  Check your webhook URL.  Also make sure there are no unusual characters in your bot name or bot icon settings.  Further details may be printed below this box.';
+
+
+
+
+
